@@ -1,7 +1,8 @@
 # Django + React App Tutorial (and try implement Docker)
 
 ## To start the site, you must enter the following commands in turn in the terminal.
-## Create and activate a virtual environment in the "djangoreact" folder (ie the newly created "djangoreact_venv" folder will appear on the same level as the "djangoreact_project" folder)
+
+Create and activate a virtual environment in the "djangoreact" folder (ie the newly created "djangoreact_venv" folder will appear on the same level as the "djangoreact_project" folder)
 `python -m venv djangoreact_venv`
 `cd djangoreact_venv`
 `cd Scripts`
