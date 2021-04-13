@@ -12,22 +12,26 @@ Create and activate a virtual environment in the "djangoreact" folder (ie the ne
 `activate`
 
 Next step - enter following (in folder "mainapp"):
-`cd..`
-`cd..`
+`cd..` ----- (the command will move to the directory by "Scripts" to "djangoreact_venv")
+`cd..` ----- (the command will move to the directory by "djangoreact_venv" to "djangoreact")
 `cd djangoreact_project`
 `cd mainapp`
 `pip3 install -r requirements.txt` or `pip install -r requirements.txt`
 
 
 ### Setting REACT
-Thenenter following in other terminal (in folder "mainapp-ui" (!!! Also must be venv !!!)):
 Check availability Node.js and Node Package Manager:
 `node --version` (for ex. result >>> v14.16.0)
 `npm --version` (for ex. result >>> 6.14.11)
 If they does not exist, then install their.
 
+Thenenter following in other terminal (in folder "mainapp-ui" (!!! Also must be venv !!!)):
+`cd mainapp-ui`
+
 After input following:
-`npm install react-scripts --save`
+`npm install react-scripts --save`  >>> (create folder "node_")
+npm install --save bootstrap
+npm install --save react-router-dom
 `npm run build`
 
 To check if it starts, enter
