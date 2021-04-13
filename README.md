@@ -30,8 +30,8 @@ Thenenter following in other terminal (in folder "mainapp-ui" (!!! Also must be 
 
 After input following:
 `npm install react-scripts --save`  >>> (create folder "node_")
-npm install --save bootstrap
-npm install --save react-router-dom
+`npm install --save bootstrap`
+`npm install --save react-router-dom`
 `npm run build`
 
 To check if it starts, enter
