@@ -5,7 +5,7 @@ To start the site, you must enter the following commands in turn in the terminal
 
 ## Setting environment DJANGO (first terminal)
 
-### Create and activate a virtual environment in the "djangoreact" folder (ie the newly created "djangoreact_venv" folder will appear on the same level as the "djangoreact_project" folder)
+### Create and activate a virtual environment in the "djangoreact" folder (ie the newly created "djangoreact_venv" folder will appear on the same level as the "djangoreact_project" folder). Type in cmd terminal following:
 
 `python -m venv djangoreact_venv`
 
@@ -27,13 +27,6 @@ To start the site, you must enter the following commands in turn in the terminal
 `cd mainapp`
 
 `pip3 install -r requirements.txt` or `pip install -r requirements.txt`
-
-
-### Next step - create superuser, then you can follow by http://127.0.0.1:8000/admin/
-
-`cd..` ----- (the command will move to the directory by "mainapp" to "djangoreact_project")
-
-`python manage.py createsuperuser`
 
 
 ## Setting REACT
@@ -77,6 +70,15 @@ To check if it starts, enter:
 `python manage.py collectstatic` (>>> Type 'yes' to continue, or 'no' to cancel:)
 
 Enter: `yes`
+
+### Next step - create superuser, then you can follow by http://127.0.0.1:8000/admin/
+
+`cd..` ----- (the command will move to the directory by "mainapp" to "djangoreact_project")
+
+`python manage.py createsuperuser`
+
+`python manage.py collectstatic` (>>> Type 'yes' to continue, or 'no' to cancel:)
+
 
 ## Then run server (first terminal):
 
