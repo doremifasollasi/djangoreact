@@ -1,4 +1,4 @@
-# Django + React App Tutorial (and try implement Docker)
+# Django + React = App "Categories and Posts" (and try implement Docker)
 
 
 To start the site, you must enter the following commands in turn in the cmd terminal.
