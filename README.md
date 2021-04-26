@@ -1,7 +1,7 @@
 # Django + React App Tutorial (and try implement Docker)
 
 
-To start the site, you must enter the following commands in turn in the terminal.
+To start the site, you must enter the following commands in turn in the cmd terminal.
 
 ## Setting environment DJANGO (first terminal)
 
@@ -44,13 +44,13 @@ Thenenter following in other terminal (in folder "mainapp-ui" (!!! Also must be 
 
 After input following:
 
-`npm install react-scripts --save`  >>> (create folder "node_")
+`npm install react-scripts --save`  >>> (create folder "node_modules")
 
 `npm install --save bootstrap`
 
 `npm install --save react-router-dom`
 
-`npm run build`
+`npm run build` >>> (create folder "build")
 
 
 To check if it starts, enter:
@@ -73,8 +73,6 @@ Enter: `yes`
 
 ### Next step - create superuser, then you can follow by http://127.0.0.1:8000/admin/
 
-`cd..` ----- (the command will move to the directory by "mainapp" to "djangoreact_project")
-
 `python manage.py createsuperuser`
 
 `python manage.py collectstatic` (>>> Type 'yes' to continue, or 'no' to cancel:)
@@ -86,6 +84,8 @@ Enter: `yes`
 
 After these commands you activate the virtual environment and the site (Django + React) on the server http://127.0.0.1:8000/ will rise.
 
+
++++++++++++++++++++++++++++++++++++++
 
 ## Setting up the app (!!! Dockerization requires refactoring !!!)
 Checkout the branch for a given tutorial, and run 
