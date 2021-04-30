@@ -83,7 +83,8 @@ To check if it starts, enter:
 
 Enter: `yes`
 
-### Next step - create superuser ащк ВофтпщФвьшт to access the link http://127.0.0.1:8000/admin/
+### Next step - create superuser (administrator) to access the link http://127.0.0.1:8000/admin/
+Through the DjangoAdmin you can change categories and posts. Let`s create:
 
 `python manage.py createsuperuser`
 
