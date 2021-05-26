@@ -4,7 +4,7 @@ The Web application "Categories and Posts" consists of two parts:
 backend - folder "mainapp" (which is implemented on Django) and 
 frontend - folder "mainapp-ui" (which is implemented on React). 
 
-Thanks to the dependency settings, we will be able to raise the frontend and backend with one team:
+Thanks to the dependency settings, we will be able to raise the frontend and backend with one command:
 
 `python manage.py runserver`
 
