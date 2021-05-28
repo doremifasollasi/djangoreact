@@ -14,7 +14,7 @@ Additionally. SPA was developed on Windows. During development I used "Visual St
 Because this is my first project using React, I needed to install "Node.js" and "Node Package Manager".
 
 There are several options for structuring the DjangoReact project. I decided that in the root folder I would have a folder with a Django project ("djangoreact_project")  and a second folder - with a virtual environment ("djangoreact_venv"). 
-I also decided, that the backend (django-app "mainapp")  and frontend ("mainapp") will be created on the same level (in the "djangoreact_project" folder).
+I also decided, that the backend (django-app "mainapp") and frontend ("mainapp-ui") will be created on the same level - within the django project (in the "djangoreact_project" folder).
 
 # so, let's do it (Django + React = App "Categories and Posts")
 
